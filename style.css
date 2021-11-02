@@ -1,7 +1,148 @@
-* {
-  margin: 0;
-  padding: 0;
+html {
   box-sizing: border-box;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+
+input {
+  line-height: normal;
+}
+
+label,
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
 /*# sourceMappingURL=style.css.map */
+.header {
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 0, 0, 0),
+      rgba(22, 60, 134, 0.24)
+    ),
+    url(./image/udck.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+.header-bg {
+  background-color: #fff;
+  opacity: 0.7;
+  padding: 10px 0;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.header-logo {
+}
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-menu_item {
+  margin-left: 35px;
+  color: black;
+  text-align: center;
+  font-weight: 200;
+  font-size: 28px;
+  line-height: 33px;
+}
+/* ========================= */
+.section-one {
+  text-align: center;
+  position: absolute;
+  /* position: relative; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.section-one_heading {
+  width: 1100px;
+  font-size: 90px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 110px;
+  text-align: center;
+  margin-top: 150px;
+  
+}
+.section-one_quotations {
+  position: absolute;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* =========section 2=============== */
+.section-two{
+  padding-top: 30px;
+}
+.section-two_content{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-two_content_1{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.section-two_content_2{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.section-two_content_img{
+  flex: 1;
+}
+.section-two_content_text{
+  flex: 1;
+}
