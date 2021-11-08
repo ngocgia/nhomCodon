@@ -305,3 +305,26 @@ body {
   line-height: 1.2;
   color: #000;
 }
+/* ===================SECTION 7================ */
+.section-7{
+  padding-top: 50px;
+}
+.section-main{
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+}
+.section-title{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.btn-admission{
+  padding-top: 50px;
+  text-align: center;
+}
+.btn-admission_more{
+  background: #C3F6F6;
+  padding: 15px;
+  border-radius: 20px;
+  font-weight: bold;
+}
