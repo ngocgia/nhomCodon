@@ -247,3 +247,61 @@ body {
   bottom: 3%;
   right: 2%;
 }
+/* ====================SECTION 6=============== */
+.section-six{
+  padding-top: 50px;
+}
+.admissions-title{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.admissions-title_item::after,
+.admissions-title_item::before{
+  content: "";
+  background-color: #000;
+  display: inline-block;
+  height: 2px;
+  vertical-align: middle;
+  width: 43%;
+  position: relative;
+  padding-left: 20px;
+}
+.admissions-content{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px 20px 0 20px;
+}
+.admissions-content_main{
+
+}
+.admissions-content_main_img{
+  padding-bottom: 10px;
+}
+.admissions-content_main_title a{
+  line-height: 1.2;
+  color: #000;
+}
+.admissions-content_main_date{
+  font-style: italic;
+  font-weight: 300;
+  font-size: 16px;
+  padding: 10px  0;
+}
+.admissions-content_main_content{
+  font-size: 18px;
+  line-height: 1.2;
+}
+.admissions-content_sub_item{
+  display: grid;
+  grid-template-columns: 45% auto;
+  grid-gap: 10px;
+  padding-bottom: 20px;
+
+}
+.admissions-content_sub_item_title a{
+  line-height: 1.2;
+  color: #000;
+}
