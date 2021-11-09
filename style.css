@@ -79,6 +79,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 .header-memu_item {
   display: flex;
@@ -120,15 +121,14 @@ body {
   position: absolute;
   text-align: center;
   color: #fff;
-  bottom: 0;
-  left:50%;
-  transform: translate(-50%, -50%);
+  bottom: 5%;
+  left:35%;
+  
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
-}
-.header-scroll i{
   animation: scrollArrow 1s infinite alternate;
 }
+
 @keyframes scrollArrow{
   from{
     transform: translateY(0);

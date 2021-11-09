@@ -1,6 +1,6 @@
 function scrollClick(){
     window.scrollTo({
-        top: 1000,
+        top: 700,
         left: 0,
         behavior: 'smooth'
       });
