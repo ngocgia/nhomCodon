@@ -438,6 +438,7 @@ body {
   font-size: 20px;
   font-style: italic;
 }
+/* ====================SECTION 10==================== */
 .success-main{
   background: #fff;
   border-radius: 20px;
@@ -451,4 +452,96 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
   padding: 5px 10px 30px 10px;
+}
+/* ===================SECTION 11====================== */
+.section-11{
+  padding-top: 50px;
+}
+.partner-title{
+  text-align: center;
+  padding-bottom: 50px;
+
+}
+.partner-title_item::after,
+.partner-title_item::before{
+  content: "";
+  background-color: #000;
+  display: inline-block;
+  height: 2px;
+  vertical-align: middle;
+  width: 45%;
+  position: relative;
+  padding-left: 20px;
+}
+.partner-main_content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+/* ===========================SECTION 12==================== */
+.section-12{
+  padding-top: 50px;
+}
+.discover-main{
+  background-image:linear-gradient(to right, rgba(22, 60, 134, 0.3), rgba(22, 60, 134, 0.4)), url(./image/bgkhampha.png);
+  background-size: cover;
+  height: 100vh;
+  
+}
+.discover-main{
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 3;
+}
+.discover-main h1{
+  font-size: 60px;
+  font-family: "Montserrat",sans-serif;
+  letter-spacing: 3px;
+}
+.discover-main a h2{
+  font-size: 20px;
+  font-family: "Montserrat",sans-serif;
+  letter-spacing: 3px;
+  color: #fff;
+}
+/* =========================FOOTER======================== */
+.footer{
+  background: #fff;
+  padding: 50px 0;
+}
+.footer-main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.footer-main_left img{
+  padding-bottom: 20px;
+}
+.footer-main_left p{
+  line-height: 1.5;
+  color: #0B156D;
+  font-weight: 500;
+  font-size: 18px;
+}
+.footer-main_left a{
+  color: #0B156D;
+}
+.footer-main_right{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+
+}
+.footer-main_right a{
+  color: #0B156D;
+  font-weight: 500;
+  font-size: 18px;
 }
