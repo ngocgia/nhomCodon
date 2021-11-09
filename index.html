@@ -16,38 +16,43 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
+    <script src="./main.js" defer></script>
   </head>
   <body>
-    <header class="header">
+    <section class="section-one">
       <div class="header-bg">
         <div class="container">
-          <div class="header-content">
-            <div class="header-logo">
-              <img src="./image/logo.png" alt="Logo" />
+          <div class="header-menu">
+            <div class="header-menu_logo">
+              <a href="#"> <img src="./image/logo.png" alt=""></a>
             </div>
-            <div class="header-menu">
-              <a href="#" class="header-menu_item">Trang chủ</a>
-              <a href="#" class="header-menu_item"
-                >Khoa<br />
-                Kỹ Thuật - Nông nghiệp</a
-              >
-              <a href="#" class="header-menu_item">Khoa<br />Kinh Tế</a>
-              <a href="#" class="header-menu_item">Khoa<br />Sư Phạm - DBDH</a>
+            <div class="header-memu_item">
+              <a href="">Trang chủ</a>
+              <a href="">Khoa <br> Kỹ Thuật-Nông Nghiệp</a>
+              <a href="">Khoa <br> Kinh Tế</a>
+              <a href="">Khoa <br> Sư Phạm - DBDH</a>
             </div>
           </div>
+         
         </div>
       </div>
-    </header>
-    <section>
       <div class="container">
-        <div class="section-one">
-          <h1 class="section-one_heading">
-            PHÂN HIỆU <br />ĐẠI HỌC ĐÀ NẴNG <br />TẠI KON TUM
-          </h1>
-          <span class="section-one_quotations"
-            ><q>Thành công của tương lai bắt đầu từ hôm nay.</q></span
-          >
+        <div class="header-content">
+          <div class="header-content_title">
+            <h1>PHÂN HIỆU <br>
+              ĐẠI HỌC ĐÀ NẴNG <br>
+              TẠI KON TUM
+              </h1>
+          </div>
+          <div class="header-content_quotations">
+            <p>“Thành công của tương lai bắt đầu từ hôm nay”</p>
+          </div>
+          <div onclick="scrollClick()" class="header-scroll">
+            <h1>CHÀO MỪNG BẠN ĐẾN VỚI UDCK</h1>
+            <i class="fas fa-chevron-down"></i>
+          </div>
         </div>
       </div>
     </section>
