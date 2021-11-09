@@ -65,6 +65,7 @@ body {
     url(./image/udck.png);
   background-repeat: no-repeat;
   background-size: cover;
+  object-fit: cover;
   background-position: center;
   height: 100vh;
   width: 100%;
@@ -327,4 +328,127 @@ body {
   padding: 15px;
   border-radius: 20px;
   font-weight: bold;
+}
+/* ===================SECTION 8============================ */
+.section-8{
+  padding-top: 50px;
+}
+.library-image{
+  background: #fff;
+  border-radius: 20px;
+}
+.labrary-image_title{
+  text-align: center;
+  padding: 20px 0;
+}
+.library-image_content{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  justify-content: center;
+}
+.library-image_content_item{
+  max-width: 350px;
+  height: 400px;
+  position: relative;
+}
+.library-image_content_item_title a{
+  color: #000;
+  padding: 15px;
+  line-height: 1.2;
+}
+.library-image_content_item_date{
+  position: absolute;
+  right: 0%;
+  bottom: 2%;
+  color: blue;
+  font-style: italic;
+}
+/* ==================SECTION 9=============== */
+.section-9{
+  padding: 50px 0;
+}
+.student-title{
+  text-align: center;
+  padding-bottom: 50px;
+}
+.student-title_item::after,
+.student-title_item::before{
+  content: "";
+  background-color: #000;
+  display: inline-block;
+  height: 2px;
+  vertical-align: middle;
+  width: 44%;
+  position: relative;
+  padding-left: 20px;
+}
+.student-main{
+  background: #fff;
+  border-radius: 20px;
+}
+.student-main_title{
+  padding: 20px;
+}
+.student-main_content{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap:20px;
+  align-items: center;
+  padding: 30px;
+  
+  position: relative;
+}
+.student-main_content_left{
+  /* padding: 20px; */
+  margin-left: 20px;
+  z-index: 2;
+}
+.student-main_content_left img{
+  width: 400px;
+  height: 400px;
+ 
+}
+.student-main_content_left h3{
+  padding: 30px 0;
+  color: red;
+  text-align: center;
+  font-family: "Playfair Display", sans-serif;
+  font-style: italic;
+}
+.student-main_content_left p{
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.student-main_content_right{
+  line-height: 2;
+  width: 800px;
+  background: #F0F4F6;
+  padding: 10px 10px 10px 100px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-left: -90px;
+  margin-top: -50px;
+  z-index: 0;
+}
+.student-main_content_right p{
+  font-size: 20px;
+  font-style: italic;
+}
+.success-main{
+  background: #fff;
+  border-radius: 20px;
+}
+.success-main_title{
+  text-align: end;
+  padding: 20px;
+}
+.success-main_content{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 5px 10px 30px 10px;
 }
