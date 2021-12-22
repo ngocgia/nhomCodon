@@ -1,0 +1,206 @@
+@media screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .section-one{
+    height: 500px;
+  }
+  .header-menu_logo {
+    max-width: 100px;
+  }
+  .header-content_title {
+    max-width: 500px;
+  }
+  .header-content_title h1 {
+    margin-top: 0px;
+    max-width: 250px;
+    font-size: 30px;
+  }
+  .header-content_quotations {
+    position: absolute;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    top: calc(100% - 230px);
+    left: 67%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  .header-scroll {
+    left: 15%;
+    font-size: 13px;
+  }
+  .header-memu_item a:not(:first-child) {
+    display: none;
+  }
+  .header-memu_item a.icon {
+    float: right;
+    display: block;
+    margin-left: 30px;
+  }
+  .header-memu_item.responsive {
+    position: relative;
+  }
+  .header-memu_item.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .header-memu_item .responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  /* section 2 */
+  .section-two-content {
+    grid-template-columns: 1fr;
+  }
+  .section-two-content_image:first-child {
+    grid-row: 2/3;
+  }
+  .section-three-menu {
+    flex-wrap: wrap;
+  }
+  .section-three-menu_item {
+    justify-content: space-between;
+    padding: 10px 5px;
+  }
+  .news-title_item::after,
+  .news-title_item::before {
+    width: 25%;
+  }
+  .news-main {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .news-main_item_title {
+    margin-top: 14%;
+  }
+  .news-links ul li a {
+    color: #000;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .admissions-title_item::after,
+  .admissions-title_item::before {
+    content: "";
+    background-color: #000;
+    display: inline-block;
+    height: 2px;
+    vertical-align: middle;
+    width: 23%;
+    position: relative;
+    padding-left: 20px;
+  }
+  .admissions-content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .admissions-content_sub_item_title a h2{
+    line-height: 1.2;
+    font-size: 18px;
+    color: #000;
+  }
+  .library-image_content{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .library-image_content_item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 100%;
+    grid-column-gap: 20px;
+    padding: 10px;
+    height: 150px;
+    position: relative;
+  }
+  .library-image_content_item_title{
+    grid-column: 2/4;
+    padding: 0;
+    
+
+  }
+  .library-image_content_item_img{
+    max-width: 100%;
+  }
+
+  .library-image_content_item_title a h3{
+    color: #000;
+    line-height: 1.2;
+  }
+  .library-image_content_item_date {
+    position: absolute;
+    right: 45%;
+    bottom: 10%;
+    color: blue;
+    font-style: italic;
+  }
+  .student-title_item::after,
+.student-title_item::before {
+  content: "";
+  background-color: #000;
+  display: inline-block;
+  height: 2px;
+  vertical-align: middle;
+  width: 24%;
+  position: relative;
+  padding-left: 20px;
+}
+.student-main_content_left img {
+  max-width: 120px;
+  max-height: 180px;
+}
+.student-main_content_left p {
+  font-size: 12px;
+  font-weight: bold;
+}
+.student-main_content_right {
+  line-height: 1;
+  max-width: 350px;
+  margin-left: -100px;
+  margin-top: -110px;
+}
+.student-main_content_right p {
+  font-size: 13px;
+  font-style: italic;
+}
+.student-main_content_left h3{
+  font-size: 16px;
+}
+.partner-title_item{
+  margin-left: 20%;
+}
+.partner-title_item::after,
+.partner-title_item::before {
+  content: "";
+  background-color: #000;
+  display: inline-block;
+  height: 2px;
+  vertical-align: middle;
+  width: 24%;
+  position: relative;
+  padding-left: 20px;
+  
+  
+}
+.discover-main{
+  line-height: 1.5;
+}
+.discover-main h1 {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 3px;
+}
+.footer-main {
+  display: grid;
+  grid-template-columns:1fr;
+  grid-gap: 10px;
+}
+.footer-main_right {
+  display: grid;
+  grid-template-columns:1fr;
+  grid-gap: 10px
+}
+}

@@ -18,6 +18,7 @@
     />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
     <script src="./main.js" defer></script>
   </head>
   <body>
@@ -28,11 +29,14 @@
             <div class="header-menu_logo">
               <a href="#"> <img src="./image/logo.png" alt=""></a>
             </div>
-            <div class="header-memu_item">
+            <div class="header-memu_item" id="myTopnav">
               <a href="">Trang chủ</a>
               <a href="">Khoa <br> Kỹ Thuật-Nông Nghiệp</a>
               <a href="">Khoa <br> Kinh Tế</a>
               <a href="">Khoa <br> Sư Phạm - DBDH</a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
             </div>
           </div>
          
@@ -41,8 +45,8 @@
       <div class="container">
         <div class="header-content">
           <div class="header-content_title">
-            <h1>PHÂN HIỆU <br>
-              ĐẠI HỌC ĐÀ NẴNG <br>
+            <h1>PHÂN HIỆU
+              ĐẠI HỌC ĐÀ NẴNG
               TẠI KON TUM
               </h1>
           </div>
@@ -124,7 +128,7 @@
               <h2>UDCK</h2>
             </div>
             <div class="news-main_item_image">
-              <img src="./image/news1.png" alt="" />
+              <img src="./image/news1.png" width="100%" alt="" />
             </div>
             <div class="news-main_item_title">
               <h3>
@@ -151,7 +155,7 @@
               <h2>HOẠT ĐỘNG SINH VIÊN</h2>
             </div>
             <div class="news-main_item_image">
-              <img src="./image/news2.png" alt="" />
+              <img src="./image/news2.png" width="100%" alt="" />
             </div>
             <div class="news-main_item_title">
               <h3>
@@ -180,7 +184,7 @@
               <h2>TỔNG HỢP</h2>
             </div>
             <div class="news-main_item_image">
-              <img src="./image/news3.png" alt="" />
+              <img src="./image/news3.png" width="100%" alt="" />
             </div>
             <div class="news-main_item_title">
               <h3>
@@ -484,5 +488,15 @@
         </div>
       </div>
     </section>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "header-memu_item") {
+          x.className += " responsive";
+        } else {
+          x.className = "header-memu_item";
+        }
+      }
+      </script>
   </body>
 </html>
