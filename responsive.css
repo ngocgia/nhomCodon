@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   * {
     margin: 0;
     padding: 0;
@@ -21,14 +21,14 @@
     position: absolute;
     font-size: 14px;
     font-family: "Montserrat", sans-serif;
-    top: calc(100% - 230px);
+    top: calc(100% - 210px);
     left: 67%;
     transform: translate(-50%, -50%);
     color: white;
   }
   .header-scroll {
     left: 15%;
-    font-size: 13px;
+    font-size: 10px;
   }
   .header-memu_item a:not(:first-child) {
     display: none;
@@ -37,6 +37,15 @@
     float: right;
     display: block;
     margin-left: 30px;
+  }
+  .section-two{
+    padding-top: 20px;
+  }
+  .overlay{
+    font-size: 14px;
+  }
+  .section-two-content_text p{
+    line-height: 1.5;
   }
   .header-memu_item.responsive {
     position: relative;
@@ -102,6 +111,7 @@
     line-height: 1.2;
     font-size: 18px;
     color: #000;
+    
   }
   .library-image_content{
     display: grid;
@@ -152,6 +162,9 @@
   max-width: 120px;
   max-height: 180px;
 }
+.student-main_content_left p{
+  margin-top: -20px;
+}
 .student-main_content_left p {
   font-size: 12px;
   font-weight: bold;
@@ -165,6 +178,13 @@
 .student-main_content_right p {
   font-size: 13px;
   font-style: italic;
+  white-space: wrap; 
+  display: -webkit-box;
+  -webkit-line-clamp: 9;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  
+  /* text-overflow: ellipsis;  */
 }
 .student-main_content_left h3{
   font-size: 16px;
