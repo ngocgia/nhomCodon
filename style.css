@@ -639,11 +639,36 @@ body {
   font-family: "Montserrat", sans-serif;
   letter-spacing: 3px;
 }
-.discover-main a h2 {
+.discover-main_item a h2 {
+  
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 3px;
   color: #fff;
+  
+}
+.discover-main_item{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.discover-main_item a h2::after{
+  content: "";
+  background-color: #fff;
+  display: inline-block;
+  height: 2px;
+  padding-left: 20px;
+  margin-bottom: 6px;
+  transform:rotate(90deg);
+    -o-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+}
+
+.discover-main_item a h2:hover {
+
+  color:rgb(244, 18, 252) ;
+
 }
 /* =========================FOOTER======================== */
 .footer {
